@@ -4,5 +4,5 @@ services:
   base:
     build: .
     volumes:
-      - .:/usr/rust/
+      - .:/root/rust/
     command: tail -F anything
