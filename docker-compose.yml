@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  base:
+    build: .
+    volumes:
+      - .:/usr/rust/
+    command: tail -F anything
